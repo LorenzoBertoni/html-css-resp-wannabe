@@ -130,3 +130,21 @@ img {
 
  /* breakpoint 768 */
 
+@media screen and (max-width: 768px){
+    .container{
+        width: 100%;
+    }
+}
+
+/* breakpoint 480 */
+
+@media screen and (max-width: 480px){
+    .container .row{
+        flex-wrap: wrap;
+    }
+
+    .row .col{
+        width: 100%;
+        margin-bottom: 60px;
+    }
+}
